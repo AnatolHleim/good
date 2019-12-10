@@ -1,0 +1,9 @@
+<suite name="Garfield.by - auto test" verbose="10">
+    <parameter name="browserName" value="CHROME" />
+    <test name="Write new post" preserve-order="true">
+        <classes>
+            <class name="basic.HardCodeOnline">
+            </class>
+        </classes>
+    </test>
+</suite>
