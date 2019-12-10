@@ -69,7 +69,7 @@
           <inherited>true</inherited>
             <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>src/test/java/basic/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
