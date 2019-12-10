@@ -88,12 +88,12 @@ public class HardCodeOnline extends TestRailListeners {
         Assert.assertEquals(searchResultPage.getResultString(), TestData.RESULT_SEARCH_STRING.getStringProperties());
     }
 
-    @TestRail(testCaseId = {44936})
-    @Test(priority = 6, description = "Проверка, что каждый сниппет содержит иконку акции на странице скидки")
-    public void verifyAllSnippetsContainsIconSale() {
-        mainPage.clickToStockLinkOnUpperMenu();
-        Assert.assertEquals(stockPage.getCountIconSaleOnPage(), stockPage.getCountSnippetOnPage());
-    }
+//    @TestRail(testCaseId = {44936})
+//    @Test(priority = 6, description = "Проверка, что каждый сниппет содержит иконку акции на странице скидки")
+//    public void verifyAllSnippetsContainsIconSale() {
+//        mainPage.clickToStockLinkOnUpperMenu();
+//        Assert.assertEquals(stockPage.getCountIconSaleOnPage(), stockPage.getCountSnippetOnPage());
+//    }
 
     @TestRail(testCaseId = {44937})
     @Test(priority = 7, description = "Проверка работы фильтра по производителю")
