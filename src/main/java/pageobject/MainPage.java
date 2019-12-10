@@ -16,7 +16,7 @@ public class MainPage {
     private SelenideElement authPopUpLoginField = $(By.id("auth_login_header"));
     private SelenideElement authPopUpPasswordField = $(By.id("header_auth_modal_password"));
     private SelenideElement loginButtonOnPopUp = $(By.name("Login"));
-    private SelenideElement linkToProfileAuthUser = $(By.linkText("Мой профиль"));
+    private SelenideElement linkToProfileAuthUser = $(By.className("header_authorization_text"));
     private SelenideElement searchProductInput = $(By.id("title-search-input"));
     private SelenideElement buttonStartSearchProduct = $(By.name("s"));
     private SelenideElement menuElementNavigateToStockPage = $("[href='/stock.html']");
